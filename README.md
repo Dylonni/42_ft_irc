@@ -39,4 +39,4 @@ You can find further explanation of an IRC client protocol implementation by fol
 https://modern.ircdocs.horse/ </br>
 
 >[!TIP]
->You can also check on different RFC IRC protocols to know how to implement it correctly, just know that there are different version of RFC and some features are not implemented the same way between on and another version
+>You can also check on different RFC IRC protocols to know how to implement it correctly, just know that there are different versions of RFC and some features are not implemented the same way between on and another version
