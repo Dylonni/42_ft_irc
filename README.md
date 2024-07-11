@@ -21,6 +21,7 @@ Once the server has started you can join it by running this command
 | --- | --- |
 | `/join <channel>` | Will join or create a channel with the entered channel name |
 | `/part <channel>` | Leave the specified channel |
+| `/invite <user> <channel>` | Invite the specified user to the specified channel |
 | `/kick <user>` | Kick the specified user out of the channel, you have to be a channel operator |
 | `/topic <topic>` | Moify the topic (description) of the channel, channel has to be in +t mode and you have to be a channel operator |
 | `/msg <channel,user>` | Send a message to specified channel or user, you have to be inside of the channel for your message to be delivered |
