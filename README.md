@@ -25,6 +25,7 @@ Once the server has started you can join it by running this command
 | `/topic <topic>` | Moify the topic (description) of the channel, channel has to be in +t mode and you have to be a channel operator |
 | `/msg <channel,user>` | Send a message to specified channel or user, you have to be inside of the channel for your message to be delivered |
 | `/mode <+-> <i,t,k,o,l>` | Set a mode for the channel, you have to be a channel operator to use these |
+
 | Modes | Description |
 | `/mode <+-i>` | Set or remove the Invite Only mode for the channel, users can enter the channel only if they are invited |
 | `/mode <+-t>` | Set or remove the ability for channel operators to modify the topic of the channel, they have tu use ```/topic``` to modify it afterwards |
