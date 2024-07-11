@@ -29,7 +29,7 @@ Once the server has started you can join it by running this command
 | Modes | Description |
 | --- | --- |
 | `/mode <+-i>` | Set or remove the Invite Only mode for the channel, users can enter the channel only if they are invited |
-| `/mode <+-t>` | Set or remove the ability for channel operators to modify the topic of the channel, they have tu use ```/topic``` to modify it afterwards |
+| `/mode <+-t>` | Set or remove the ability for channel operators to modify the topic of the channel, they have to use ```/topic``` to modify it afterwards |
 | `/mode <+-k> <password>` | Set a password to join the channel, you have to specify the password after setting +k (i.e ```/mode +k <password>```). If you use -k, channel password is removed |
 | `/mode <+-o> <user>` | Set or remove channel operator privilege for the specified user, |
 | `/mode <+-l> <limit>` | Set or remove the limit of channel users, you have to specify the limit after setting +l (i.e ```/mode +l <limit>```). If you use -l, channel users limit is removed  |
