@@ -19,11 +19,22 @@ Once the server has started you can join it by running this command
 # Commands
 | Command | Description |
 | --- | --- |
-| `/join <channel>` | Will join or create a channel with the entered <channel> |
-| `/part <channel>` | Leave the specified <channel> |
-| `/kick <user>` | Kick the specified <user> out of the channel, you have to be an operator of the channel |
-| `/mode <+> or <-> <i,t,k,o,l>` |  |
-| `/part <channel>` | Leave the specified <channel> |
-| `/part <channel>` | Leave the specified <channel> |
-| `/part <channel>` | Leave the specified <channel> |
-| `/part <channel>` | Leave the specified <channel> |
+| `/join <channel>` | Will join or create a channel with the entered channel name |
+| `/part <channel>` | Leave the specified channel |
+| `/kick <user>` | Kick the specified user out of the channel, you have to be a channel operator |
+| `/topic <topic>` | Moify the topic (description) of the channel, channel has to be in +t mode and you have to be a channel operator |
+| `/msg <channel,user>` | Send a message to specified channel or user, you have to be inside of the channel for your message to be delivered |
+| `/mode <+-> <i,t,k,o,l>` | Set a mode for the channel, you have to be a channel operator to use these |
+| Modes | Description |
+| `/mode <+-i>` | Set or remove the Invite Only mode for the channel, users can enter the channel only if they are invited |
+| `/mode <+-t>` | Set or remove the ability for channel operators to modify the topic of the channel, they have tu use ```/topic``` to modify it afterwards |
+| `/mode <+-k> <password>` | Set a password to join the channel, you have to specify the password after setting +k (i.e ```/mode +k <password>```). If you use -k, channel password is removed |
+| `/mode <+-o> <user>` | Set or remove channel operator privilege for the specified user, |
+| `/mode <+-l> <limit>` | Set or remove the limit of channel users, you have to specify the limit after setting +l (i.e ```/mode +l <limit>```). If you use -l, channel users limit is removed  |
+
+## Documentation
+You can find further explanation of an IRC client protocol implementation by following this link </br>
+https://modern.ircdocs.horse/ </br>
+
+>[!NOTE]
+>You can also check on different RFC IRC protocols to know how to implement it correctly, just know that there are different version of RFC and some features are not implemented the same way between certain versions
