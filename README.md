@@ -4,7 +4,7 @@ A basic IRC server, made in C++ where you can connect and chat with other connec
 >[!NOTE]
 >For a better user experience, you might want to install an IRC client. We made this project with the ```irssi``` client.
 >This tutorial will not explain on how to get the irssi client, as it can differ for different OS.
->This build has been made for ```irssi v1.2.3-1ubuntu4``` On an ```Ubuntu 22.04``` machine.
+>This build has been made for ```irssi v1.2.3-1ubuntu4``` on an ```Ubuntu 22.04``` machine.
 
 ## Run the server
 To run the server , you have to clone the repository. </br>
